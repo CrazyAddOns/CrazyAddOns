@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.Crazy.plugins" name="Crazy Add-ons" version="0.0.1" provider-name="Crazy">
+	<extension point="xbmc.addon.repository" name="Crazy Add-ons">
+		<info compressed="false">http://github.com/CrazyAddOns/CrazyAddOns/raw/master/addons.xml</info>
+		<checksum>http://github.com/CrazyAddOns/CrazyAddOns/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://github.com/CrazyAddOns/CrazyAddOns/raw/master/Zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from CrazyAddOn Add-on Repository</summary>
+		<description>Plug-ins for XBMC</description>
+		<disclaimer>There are add-ons that allow viewing CrazyAddOn in XBMC</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>

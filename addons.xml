@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.ku6"
+    name="酷6云中剧场(Ku6)"
+    version="1.0.5"
+    provider-name="wow1122">
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Ku6 video plugin</summary>
+        <summary lang="zh">酷6云中剧场视频插件</summary>
+        <description lang="en">online video from www.juchang.com/n</description>
+        <description lang="zh">观看酷6云中剧场</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.5ivdo"
+    name="5ivdo(5ivdo)"
+    version="1.1.5"
+    provider-name="5ivdo">
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">5ivdo video plugin</summary>
+        <summary lang="zh">我爱VDO</summary>
+        <description lang="en">online video from 5ivdo.com</description>
+        <description lang="zh">在线视频聚合，主站[http://www.5ivdo.com]。基于XBMC运行，能够支持优土，爱奇艺，腾讯，搜狐，乐视，新浪，风行等主要视频内容的在线播放，更多站点支持敬请期待。本站作为资源导航，只为个人服务，商业用途勿扰。你所体验的所有视频内容，版权归属相应网站，应对他们的工作心存感激。有任何意见或建议请加入QQ群[197687378]，或者关注官方微博[http://weibo.com/5ivdo]。让我们为创造更好的XBMC体验而努力！</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.yinyuetai"
+    name="音悦台MV(YinYueTai)"
+    version="1.7.7"
+    provider-name="cmeng (originator: Skyemperor)">
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">YinYueTai video plugin</summary>
+        <summary lang="zh">音悦台视频插件</summary>
+        <description lang="en">Online MV from yinyuetai.com[CR][CR]To Enable Video Auto Playback Option:[CR]---------------------------------[CR]- Navigate to Add-on settings[CR]- Video Continuous Playback: Enable/Disable</description>
+        <description lang="zh">观看音悦台在线MV[CR][CR]视频自动播放说明：[CR]--------------------------------[CR]- 找到 Add-on settings 文件列表[CR]- 选择视频连续播放": 是/否</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.youtube" name="YouTube" provider-name="TheCollective" version="4.4.10">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.simplejson" version="2.0.10" />
+    <import addon="script.common.plugin.cache" version="2.5.2" />
+    <import addon="script.module.parsedom" version="2.5.2" />
+    <import addon="script.module.simple.downloader" version="1.9.4" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="af">YouTube video byvoegsel</summary>
+    <summary lang="be">YouTube video plugin</summary>
+    <summary lang="bg">Видео добавка за YouTube</summary>
+    <summary lang="cs">Modul videa YouTube</summary>
+    <summary lang="da">YouTube videoplugin</summary>
+    <summary lang="de">YouTube Video Plugin</summary>
+    <summary lang="el">Plugin για το YouTube</summary>
+    <summary lang="en">YouTube video plugin</summary>
+    <summary lang="es">Plugin de video de YouTube</summary>
+    <summary lang="es_AR">Plugin de video de YouTube</summary>
+    <summary lang="es_MX">Plugin de vídeo de Youtube</summary>
+    <summary lang="eu">YouTube bideo gehigarria</summary>
+    <summary lang="fa">پلاگین You Tube</summary>
+    <summary lang="fi">YouTube-videoliitännäinen</summary>
+    <summary lang="fr">Extension vidéo YouTube</summary>
+    <summary lang="gl">Extensión de vídeo de YouTube</summary>
+    <summary lang="he">תוסף וידאו YouTube </summary>
+    <summary lang="hu">YouTube video kiegészítő</summary>
+    <summary lang="it">Plugin video YouTube</summary>
+    <summary lang="ja">YouTube ビデオプラグイン</summary>
+    <summary lang="ko">YouTube 비디오 플러그인</summary>
+    <summary lang="lt">YouTube vaizdo įskiepis</summary>
+    <summary lang="mk">YouTube видео додаток</summary>
+    <summary lang="nl">YoutTube video plugin</summary>
+    <summary lang="no">YouTube video tillegg</summary>
+    <summary lang="pl">Wtyczka YouTube</summary>
+    <summary lang="pt">Plugin de vídeo YouTube</summary>
+    <summary lang="pt_BR">Plugin de vídeo YouTube</summary>
+    <summary lang="ro">Plugin video YouTube</summary>
+    <summary lang="ru">Дополнение видео YouTube</summary>
+    <summary lang="sk">Zásuvný modul pre video z YouTube</summary>
+    <summary lang="sl">Video vtičnik YouTube</summary>
+    <summary lang="sv">YouTube videotillägg</summary>
+    <summary lang="th">ส่วนเสริมวิดีโอ YouTube</summary>
+    <summary lang="uk">Відео додаток YouTube</summary>
+    <summary lang="zh">YouTube视频插件</summary>
+    <summary lang="zh_TW">YouTube 影片外掛</summary>
+    <description lang="af">Byvoegsel wat jou toelaat om videos te blaai en speel vanaf almal se gunsteling video werf!</description>
+    <description lang="be">Plugin that lets you browse and play videos from everybody's favorite video site!</description>
+    <description lang="bg">Добавката Ви позволява да разглеждате и гледате видео клипове от любимия на на всички видео сайт!</description>
+    <description lang="cs">Modul, který vám umožní procházet a přehrávat videa z nejoblíbenější stránky s videi.</description>
+    <description lang="da">Plugin som lader dig browse og afspille videoer fra alles yndlings videoside!</description>
+    <description lang="de">Ein Plugin, welches Ihnen erlaubt Videos von Youtube abzuspielen.</description>
+    <description lang="el">Plugin το οποίο σας επιτρέπει να περιηγηθείτε και να δείτε βίντεο από την πιο αγαπητή ιστοσελίδα βίντεο!</description>
+    <description lang="en">Plugin that lets you browse and play videos from everybody's favorite video site!</description>
+    <description lang="es">Este plugin te permite buscar y reproducir vídeos desde el sitio de vídeos favorito de todos!</description>
+    <description lang="es_AR">¡Este plugin te permite buscar y reproducir videos desde el sitio de videos favorito de todos!</description>
+    <description lang="es_MX">¡El Plugin que te permite explorar y reproducir vídeos del sitio favorito de todos!</description>
+    <description lang="fa">این پلاگین امکان مرور و پخش ویدئو از سایت های ورد علاقه تان را به شما میدهد.</description>
+    <description lang="fi">Plugin jolla voi selata ja katsoa videoita kaikkien suosikkivideosivustolta!</description>
+    <description lang="fr">Programme permettant parcours et visualisation des chaînes du meilleur site vidéo !</description>
+    <description lang="gl">Extensión que permite explorar e reproducir vídeos do sitio favorito de todos!</description>
+    <description lang="he">תוסף שמאפשר לך לדפדף ולנגן מתוך אתר הוידאו האהוב על כולם!</description>
+    <description lang="hu">A kiegészítő lehetővé teszi mindenkinek, hogy böngésszen, és lejátsszon videókat, mindenki kedvenc videómegosztójáról!</description>
+    <description lang="it">Plugin the ti permette di cercare e riprodurre video dal sito di video preferito da tutti!</description>
+    <description lang="ja">みんなが大好き、あの有名なサイト上の動画をブラウズ・再生するプラグイン！</description>
+    <description lang="ko">YouTube 동영상을 탐색하고 재생할 수 있는 플러그인</description>
+    <description lang="lt">Įskiepis, kuris leidžia jums naršyti ir leisti vaizdo įrašus YouTube svetainėje!</description>
+    <description lang="mk">Дополнување кое ви овозможува пребарување и пуштање на видеа од омилени видео страни!</description>
+    <description lang="nl">Plugin waarmee u kunt bladeren en video's af te spelen vanaf een ieders favoriete video site!</description>
+    <description lang="no">Et tillegg som lar deg bla gjennom og spille av videoer fra alles favoritt video nettsted!</description>
+    <description lang="pl">Ten plugin pozwala na przeszukiwanie i odtwarzanie wideo z powszechnie lubianej strony!</description>
+    <description lang="pt">Plugin que permite procurar e reproduzir vídeos do site favorito de todos!</description>
+    <description lang="pt_BR">Plugin que permite navegar e reproduzir vídeos do site favorito de vídeos de todo mundo!</description>
+    <description lang="ro">Plugin ce va permita sa gasiti şi să vizualizaţi videoclipuri de pe site-ul favorit al tuturora.</description>
+    <description lang="ru">Данное дополнение позволяет находить и смотреть видео на всеми любимом сайте.</description>
+    <description lang="sk">Tento zásuvný modul umožňuje prehliadať a prehrávať videá z najobľúbenejšej videostránky na svete!</description>
+    <description lang="sl">Vtičnik, ki omogoča predvajanje posnetkov z vaše najljubše video strani!</description>
+    <description lang="sv">Tillägget låter dig bläddra och spela videor från allas favoritvideosajt!</description>
+    <description lang="th">ส่วนเสริมที่ช่วยให้คุณสามารถเรียกดูและเล่นวิดีโอจากเว็บไซต์วิดีโอที่ทุกคนชื่นชอบ!</description>
+    <description lang="zh">让你能浏览和播放最受欢迎的视频网站内容的插件！</description>
+    <disclaimer lang="af">Sommige dele van hierdie byvoegsel mag dalk nie wettig wees in jou land van verblyf nie - gaan die plaaslike wette na voor installering.</disclaimer>
+    <disclaimer lang="be">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+    <disclaimer lang="bg">Някои части от добавката може да са незаконни в държавата, в която се намирате - моля, проверете местните закони, преди да я инсталирате.</disclaimer>
+    <disclaimer lang="ca">Algunes parts d'aquest complement poden no ser legals al vostre país de residència - si us plau verificau les lleis locals abans d'instal·lar-lo.</disclaimer>
+    <disclaimer lang="cs">Některé části tohoto doplňku nemusí být legální ve vašem státě - prosím ověřte vaše zákony před instalací.</disclaimer>
+    <disclaimer lang="da">Nogle dele af dette add-on er muligvis ikke lovlige i dit hjemland - Kontroller venligst dette ved de lokale myndigheder inden du installerer.</disclaimer>
+    <disclaimer lang="de">Einige Teile dieses Addons könnten in deinem Land verboten sein - bitte stelle vor der installation sicher, dass du keine Gesetze verletzt.</disclaimer>
+    <disclaimer lang="el">Κάποια τμήματα αυτού του πρόσθετου ενδέχεται να μην είναι νόμιμα στη χώρα σας - ελέγξετε τη νομοθεσία πριν την εγκατάσταση.</disclaimer>
+    <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+    <disclaimer lang="es">Algunas partes de este addon pueden no ser legales en tu país de residencia - verifica tus leyes locales antes de instalar.</disclaimer>
+    <disclaimer lang="es_AR">Algunas partes de este add-on pueden no ser legales en tu país de residencia - verifica tus leyes locales antes de instalar.</disclaimer>
+    <disclaimer lang="es_MX">Algunas partes de este addon pueden no ser legales en tu país de residencia - por favor consulta tus leyes locales antes de instalar</disclaimer>
+    <disclaimer lang="fi">Jotkin tämän lisäosan osat eivät ehkä ole laillisia maassasi - tarkista paikalliset lait ennen asentamista.</disclaimer>
+    <disclaimer lang="fr">Certaines options de cette extension ne sont peut-être pas autorisées dans votre pays - Merci de le vérifier avant son installation.</disclaimer>
+    <disclaimer lang="gl">Algunhas partes deste engadido poden non ser legais no teu país - por favor verifica as leis locais antes de instalalo.</disclaimer>
+    <disclaimer lang="he">חלקים מתוסף זה עלולים להיות לא חוקיים במקום מגורייך-אנא בדוק את החוקים החלים עלייך לפני התקנת התוסף.</disclaimer>
+    <disclaimer lang="hu">A kiegészítő egyes részei lehet, hogy nem legálisak az Ön hazájában - kérjük ellenőrizze a helyi törvényeket a telepítés elött. </disclaimer>
+    <disclaimer lang="it">Alcune parti di questo addon potrebbero non essere legali nel tuo paese di residenza - Ti preghiamo di controllare la tua normativa locale prima di installarlo.</disclaimer>
+    <disclaimer lang="ja">本アドオンの一部は、お住まいの国によっては違法となる可能性があります。インストール前にお住まいの国の法律をご確認ください。</disclaimer>
+    <disclaimer lang="ko">이 추가기능의 일부분은 사용자의 국가나 거주지역에 따라 합법적이지 않을 수도 있습니다 - 설치하기 전에 관련 법률을 확인하세요.</disclaimer>
+    <disclaimer lang="lt">Kai kurios šio priedo dalys gali būti Nerodomos/Nepaleidžiamos jūsų Šalyje - prašome patikrinti savo vietinius įstatymus prieš įdiegiant priedą.</disclaimer>
+    <disclaimer lang="mk">Некои делови од дополнувањето може да не се легални во вашата држава - провери пред да инсталираш.</disclaimer>
+    <disclaimer lang="nl">Sommige onderdelen van deze plugin kunnen illegaal zijn in uw land.
+Raadpleeg de lokale wetgeving voordat u deze plugin installeert.</disclaimer>
+    <disclaimer lang="no">Noen deler av dette tillegget kan hende ikke er lovlig i landet du bor i - vennligst sjekk med dine lokale lover før du installerer.</disclaimer>
+    <disclaimer lang="pl">Niektóre części tego dodatku mogą być nielegalne w twoim kraju - przed instalacją sprawdź zgodność ze swoim lokalnym prawem.</disclaimer>
+    <disclaimer lang="pt">Algumas partes deste addon podem não ser legais no seu país de residência - por favor confira as leis regionais antes de instalar.</disclaimer>
+    <disclaimer lang="pt_BR">Algumas partes deste addon podem não ser legais em seu país de residência - por favor, verifique as leis locais antes de instalar.</disclaimer>
+    <disclaimer lang="ro">Unele părți ale acestui addon ar putea fi ilegale în țara ta - verifică legislația locală înainte de a-l instala.</disclaimer>
+    <disclaimer lang="ru">Некоторые элементы этого дополнения могут являться незаконными в вашей стране проживания. Перед установкой ознакомьтесь с местным законодательством.</disclaimer>
+    <disclaimer lang="sk">Niektoré časti tohto doplnku nemusia byť vo vašej krajine legálne - pred inštaláciou si prosím overte, či je to v súlade s vašim lokálnym právom.</disclaimer>
+    <disclaimer lang="sl">Deli tega dodatka mogoče niso legalni v kraju vašega bivanja - preverite pred namestitvijo.</disclaimer>
+    <disclaimer lang="sv">Någon del av detta tillägg kanske är olagligt i ditt land - kontrollera dina lokala lagar innan installation.</disclaimer>
+    <disclaimer lang="th">บางส่วนจากส่วนขยายนี้อาจไม่ถูกต้องตามกฏหมายในประเทศของคุณ กรุณาตรวจสอบกฏหมายในประเทศของคุณก่อนทำการติดตั้ง</disclaimer>
+    <disclaimer lang="zh">这个插件的某些内容可能不符合你所在国家的法律规定 - 请在在安装前确认符合当地法律。</disclaimer>
+    <platform>all</platform>
+    <language />
+  </extension>
+</addon>
+
+<addon id="plugin.video.hdpsohu"
+  name="HDP搜狐视频"
+  version="0.1.3"
+  provider-name="Wenl">
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>HDPfans sohu</summary>
+    <summary lang="zh">HDPfans搜狐视频</summary>
+    <description>Sohu video collected by HDPfans</description>
+    <description lang="zh">HDPfans聚合的搜狐视频</description>
+    <disclaimer>For demonstration only</disclaimer>
+  </extension>
+</addon>
+
+<addon id="plugin.video.youkuhd"
+    name="HDP优酷高清"
+    version="1.1.1"
+    provider-name="Wenl">
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">YouKuHD video plugin</summary>
+        <summary lang="zh">优酷视频高清版</summary>
+        <description lang="en">online video from youku</description>
+        <description lang="zh">优酷，2006年12月21日正式推出。优酷以 "快者为王"为产品理 念，凭借"快速播放，快速发布，快速搜索"的产品特性，充分满足用户日益增长的互动需求及多元化视频体验，现已成为中国互联网领域最具影响力、最受用户喜爱的视频媒体。更多xbmc优秀插件分享，插件编写教程请上高清范网站 http://www.hdpfans.com</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.pptv"
+    name="PPTV视频"
+    version="1.2.7"
+    provider-name="Uranus Zhou">
+    <requires>
+        <import addon="script.module.keyboard.chinese" version="1.0.0"/>
+		<import addon="script.module.simplejson" />
+	</requires>
+	<extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">PPTV video plugin</summary>
+        <summary lang="zh">PPTV视频插件</summary>
+        <description lang="en">Watch online videos in www.pptv.com site. Your XBMC system need m3u and m3u8 support for playing live stream and iPad stream</description>
+        <description lang="zh">观看 www.pptv.com 上的精彩在线直播和点播视频. 直播及iPad视频需XBMC系统可正常播放m3u m3u8类型网络媒体</description>
+        <platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum>http://bbs.htpc1.com/thread-259452-1-1.html</forum>
+		<website>http://zohead.com/</website>
+		<source>https://github.com/zohead/pptv4xbmc</source>
+		<email>nocwat at gmail dot com</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.ted.talks" name="TED Talks" version="4.2.4" provider-name="rwparris2, moreginger">
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <!-- There are subtitles on TED in many languages,
+    and this plugin is (partially) internationalized in several,
+    but it seems better to claim the one we are sure of for now. -->
+    <language>en</language>
+    <summary lang="en">Watch talks from TED.com, a site dedicated to 'Ideas Worth Spreading'</summary>
+    <summary lang="hu">Beszédek megtekintése a TED.com-ról</summary>
+    <summary lang="pt">Veja debates de TED.com, um site dedicado a 'Ideias com Valor'</summary>
+    <description lang="en">TED is a small nonprofit devoted to Ideas Worth Spreading. It started out (in 1984) as a conference bringing together people from three worlds: Technology, Entertainment, Design. Since then its scope has become ever broader.</description>
+    <description lang="hu">TED egy kicsi non-profit szervezet aminek célpontjában az Ötlet áll amit érdemes megosztani. A webhely kezdete 1984-re nyúlik vissza egy konferenciára ami 3 külön világot hozott össze: Technológia, Szórakozás, Tervezés. Azóta a kör csak bővült.</description>
+    <description lang="pt">TED é uma organização sem fins lucrativos dedicada a 'Ideias com Valor'. Foi iniciada em 1984 como uma conferência que pretendia juntar pessoas de três mundos: Tecnologia, Entretenimento e Design. Desde ai tornou-se muito mais abrangente.</description>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=36866</forum>
+    <website>https://github.com/moreginger/xbmc-plugin.video.ted.talks</website>
+    <source>https://github.com/moreginger/xbmc-plugin.video.ted.talks.git</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.funshion"
+    name="风行视频(Funshion)"
+    version="1.0.12"
+    provider-name="taxigps">
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Funshion Video plugin</summary>
+        <summary lang="zh">风行网视频插件</summary>
+        <description lang="en">Online videos from www.funshion.com</description>
+        <description lang="zh">来自风行网（www.funshion.com）的网络视频内容。</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.sohuvideo"
+    name="搜狐视频(SoHu)"
+    version="2.4.3"
+    provider-name="Taxigps">
+    <requires>
+        <import addon="script.module.keyboard.chinese" version="1.0.0"/>
+    </requires>
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">SoHu Video plugin</summary>
+        <summary lang="zh">搜狐视频插件</summary>
+        <description lang="en">Online videos from tv.sohu.com</description>
+        <description lang="zh">搜狐视频网站(tv.sohu.com)提供正版在线观看高清电影、高清电视剧、高清纪录片，包括正在影院热映，电视热播的最新大片，多年来最受网友喜欢的经典影视作品，国内外品质优秀的历史，地理，探索等纪录片，总计10万余集, 观看清晰度可达DVD标准</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.welldone.videoaddons" name="Welldone Collection精品插件库" version="0.0.1" provider-name="Goodboy">
+	<extension point="xbmc.addon.repository" name="welldone Add-on Repository">
+		<info compressed="false">http://10.10.2.39:9000/addons.xml</info>
+		<checksum>http://10.10.2.39:9000/addons.xml.md5</checksum>
+		<datadir zip="true">http://10.10.2.39:9000/repo</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from welldone videoaddons repository</summary>
+		<summary lang="zh">从welldone插件库安装XBMC扩展功能</summary>
+		<description>Download and install add-ons for welldone addons repository.</description>
+		<description lang="zh">从welldone插件测试库下载安装XBMC扩展功能模块。</description>
+		<disclaimer>All media is collected from Internet.</disclaimer>
+		<disclaimer lang="zh">您所看到的所有内容均来自互联网</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.courses"
+  name="HDP公开课"
+  version="1.0.0"
+  provider-name="Wenl">
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>HDPfans courses</summary>
+    <summary lang="zh">HDPfans公开课</summary>
+    <description>HDPfans 公开课</description>
+    <description lang="zh">高清范公开课插件，涵盖各世界名校公开课内容。更多xbmc优秀插件分享，插件编写教程请上高清范网站 http://www.hdpfans.com</description>
+    <disclaimer>本插件数据均源自互联网数据聚合，仅供学习和研究使用。</disclaimer>
+  </extension>
+</addon>
+
+<addon id="plugin.video.youku"
+    name="优酷视频(YouKu)"
+    version="2.2.1"
+    provider-name="Taxigps">
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">YouKu video plugin</summary>
+        <summary lang="zh">优酷网视频插件</summary>
+        <description lang="en">online video from youku.com</description>
+        <description lang="zh">优酷（NYSE:YOKU），2006年12月21日正式推出。优酷以 "快者为王"为产品理 念，凭借"快速播放，快速发布，快速搜索"的产品特性，充分满足用户日益增长的互动需求及多元化视频体验，现已成为中国互联网领域最具影响力、最受用户喜爱的视频媒体。</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.letv"
+    name="乐视网 (LeTV)"
+    version="1.3.8"
+    provider-name="cmeng">
+  	<requires>
+		<import addon="script.module.keyboard.chinese" version="1.0.0"/>
+  	</requires>
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">LeTV video plugin</summary>
+        <summary lang="zh">乐视网插件</summary>
+        <description lang="en">Letv video plugin[CR][CR]LeTV.com (Chinese: 乐视网), operated by Beijing LeTV Mobile Media and Technology Co. Ltd, is an online video portal in Beijing. It offers online video programs and movie viewing through legal channels.</description>
+        <description lang="zh">Letv video plugin[CR][CR]乐视网(LeTV.com)是以正版,高清影视剧为主的视频门户网站,为用户提供正版高清电影,电视剧,动漫,综艺,娱乐等视频在线观看,视频分享,视频搜索等服务</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.revision3"
+       name="Revision3"
+       version="3.0.14"
+       provider-name="stacked">
+    <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Revision3: The Best TV Shows on the Internet</summary>
+    <description lang="en">The leading independent free online video service.</description>
+    <platform>all</platform>
+	<language>en</language>
+	<website>https://code.google.com/p/plugin</website>
+	<source>https://github.com/stacked/plugin.video.revision3</source>
+	<forum>http://forum.xbmc.org/showthread.php?tid=42458</forum>
+	<email>stacked.xbmc@gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="plugin.video.g4tv"
+       name="G4TV"
+       version="3.0.2"
+       provider-name="stacked">
+    <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">G4TV: The latest in video games - game reviews, trailers, news, cheats, and screenshots.</summary>
+    <description lang="en">G4TV is the one destination on television that feeds your addiction for the latest must-have tech gadgets, web culture and video games.</description>
+    <platform>all</platform>
+	<language>en</language>
+	<website>https://code.google.com/p/plugin</website>
+	<source>https://github.com/stacked/plugin.video.g4tv</source>
+	<forum>http://forum.xbmc.org/showthread.php?tid=43556</forum>
+	<email>stacked.xbmc@gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ppstream"
+    name="PPS网络电视(PPStream)"
+    version="2.2.14"
+    provider-name="cmeng (originator: robinttt)">
+    <requires>
+        <import addon="script.module.simplejson" version="2.0.10" />
+ 		<import addon="script.module.keyboard.chinese" version="1.0.0"/>
+  	</requires>
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">PPStream video plugin</summary>
+        <summary lang="zh">PPS网络电视</summary>
+        <description lang="en">PPS网络电视: (KeyMap Settings)[CR]Mute: F8  Vol-: F9  Vol+: F10  ZoomIn: [↓  ZoomOut: ]↑[CR]Rev: ,←  Next: .→  Pause: Space/Ent  Exit: x/Esc  About: F1[CR]
+To customize Keypmap:[CR]Run plugin.video.pps\resources\player\KeymapSet.exe
+For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and Language"|"Administrative"[CR]Change system locale to "Chinese (Simplified PRC)"</description>
+        <description lang="zh">快捷键设置 (Keymap Settings):[CR]静音: F8  声音缩小: F9  声音放大: F10  画面缩小: [↓  画面放大: ]↑[CR]上一章节: ,←  下一章节: .→  播放暂停: 空格键/回车  关闭程序: x/Esc  关于: F1
+设置自定快捷键:[CR]请运行 plugin.video.pps\resources\player\KeymapSet.exe
+使用PPS影音收看影视节目，清晰流畅更新快。PPS网络电视是全球第一家集P2P直播点播于一身的网络电视软件。PPS网络电视播放流畅、完全免费，PPS网络电视是网民喜爱的装机必备软件。</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.itunes_trailers" name="Apple iTunes Trailers" version="0.2.2" provider-name="Tristan Fischer (sphere@dersphere.de)">
+       <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <website>http://trailers.apple.com/</website>
+        <source>https://github.com/dersphere/plugin.video.itunes_trailers</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=160691</forum>
+        <email>sphere@dersphere.de</email>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <language></language>
+        <platform>all</platform>
+        <summary lang="be">Apple iTunes Trailer Browser</summary>
+        <summary lang="bg">Преглед на трейлъри от iTunes на Apple</summary>
+        <summary lang="ca">Buscador de Tràilers d'Apple iTunes</summary>
+        <summary lang="de">Apple iTunes Trailer Browser</summary>
+        <summary lang="el">Περιήγηση Διαφημιστικών Apple iTunes</summary>
+        <summary lang="en">Apple iTunes Trailer Browser</summary>
+        <summary lang="es">Explorador de Trailers de Apple iTunes</summary>
+        <summary lang="fr">Navigateur de Bande-annonces Apple iTunes</summary>
+        <summary lang="fr_CA">Navigateur de bandes-annonces pour iTunes d'Apple</summary>
+        <summary lang="gl">Buscardor de Avances de Apple iTunes</summary>
+        <summary lang="he">סייר קדימונים מחנות iTunes של Apple</summary>
+        <summary lang="hr">Apple iTunes preglednik najava filmova</summary>
+        <summary lang="hu">Apple iTunes Trailer Böngésző</summary>
+        <summary lang="it">Sfoglia i Trailer da </summary>
+        <summary lang="ko">Apple iTunes Trailer Browser</summary>
+        <summary lang="nl">Apple itunes Trailer Browser</summary>
+        <summary lang="pl">Przeglądarka zwiastunów Apple iTunes</summary>
+        <summary lang="pt">Navegador de Trailers do Apple iTunes</summary>
+        <summary lang="pt_BR">Apple iTunes Trailer Browser</summary>
+        <summary lang="sv">Apple iTunes Trailer utforskare</summary>
+        <summary lang="tr">Apple iTunes Fragman Tarayıcısı</summary>
+        <summary lang="zh">苹果iTunes预告片浏览器</summary>
+        <description lang="be">Apple iTunes Movie Trailers puts the newest and most exclusive movie previews in HD to your XBMC. Features:[CR]- Watch Trailers in 480p/720p/1080p[CR]- Download Trailers[CR]- Add Movies to Trakt.tv[CR]- Add Movies to CouchPotato</description>
+        <description lang="bg">Apple iTunes Movie Trailers Ви предоставя преглед на най-новите филми в HD формат. Характеристики:[CR]- Възпроизвежда трейлъри в 480p/720p/1080p резолюция[CR]- Сваля трейлъри[CR]- Добавя филми към акаунта Ви в www.Trakt.tv[CR]- Добавя филми в CouchPotato</description>
+        <description lang="ca">Apple iTunes Movie Tràilers posa els tràilers en HD més nous i exclusius en el seu XBMC. Característiques:[CR] - Vegeu Tràilers en 480p/720p/1080p[CR]- Descàrrega de Tràilers [CR]- Afegiu Pel·lícules a Trakt.tv[CR] - Afegiu Pel·lícules a CouchPotato</description>
+        <description lang="de">Apple iTunes Movie Trailers bringt die neusten und exklusivsten Filmvorschauen in HD auf Dein XBMC. Features:[CR]- Trailer in 480p/720p/1080p[CR]- Trailer herunterladen[CR]- Filme zu CouchPotato hinzufügen</description>
+        <description lang="el">Η Περιήγηση Διαφημιστικών Apple iTunes προσφέρει τα νεώτερα και σε αποκλειστικότητα διαφημιστικά σε ανάλυση HD στο XBMC σας. Χαρακτηριστικά:[CR]- Προβολή Διαφημιστικών σε 480p/720p/1080p[CR]- Λήψη Διαφημιστικών[CR]- Προσθήκη Ταινιών στο CouchPotato</description>
+        <description lang="en">Apple iTunes Movie Trailers puts the newest and most exclusive movie previews in HD to your XBMC. Features:[CR]- Watch Trailers in 480p/720p/1080p[CR]- Download Trailers[CR]- Add Movies to Trakt.tv[CR]- Add Movies to CouchPotato</description>
+        <description lang="es">Apple iTunes Movie Trailers pone los trailers en HD más novedosos y exclusivos en su XBMC. Características:[CR]- Vea Trailers en 480p/720p/1080p[CR]- Descarga de Trailers[CR]- Añada Películas a CouchPotato</description>
+        <description lang="fr">Apple iTunes Bande-annonces de Films vous donne accès aux nouvelles et exclusives bande-annonces en HD pour XBMC. Fonctionnalités:[CR]- Regarder les bande-annonces en 480p/720p/1080p[CR]- Télécharger les Bande-annonces[CR]- Ajouter les films à CouchPotato</description>
+        <description lang="fr_CA">Les bandes-annonces de films de Itunes d'Apple amènent les avant-premières HD les plus récentes et les plus exclusives dans votre XBMC. Caractéristiques:[CR]- Regarder des bandes-annonces en 480p-720p-1080p[CR]- Télécharger des bandes-annonces[CR]- Ajouter des films à Trakt.tv[CR]- Ajouter des films à CouchPotato</description>
+        <description lang="gl">Os Avances de Filmes de Apple iTunes leva os máis novos e exclusivos avances en Alta Definición ao teu XBMC. Características:[CR]- Ver Avances en 480p/720p/1080p[CR]- Descargar Avances[CR]- Engadir filmes a CouchPotato</description>
+        <description lang="he">הרחבת הוידאו של קדימוני סרטים מחנות iTunes של Apple מביאה את קדימוני הסרטים הכי חדשים ואקסלוסיביים באיכות HD הישר אל XBMC. כולל:[CR]- צפיה בקדימונים באיכות 480p/720p/1080p[CR]- הורד קדימונים[CR]- הוסף סרטים ל-Trakt.tv[CR]- הוסף סרטים ל-CouchPotato</description>
+        <description lang="hr">Apple iTunes filmske najave prikazuju najnovije i najekskluzivnije HD filmske najave u vašem XBMC-u. Značajke:[CR]- Gledajte najave u 480p/720p/1080p[CR]- Preuzmite najave[CR]- Dodajte filmove na Trakt.tv[CR]- Dodajte filmove na CouchPotato</description>
+        <description lang="hu">Apple iTunes Filmelőzetesek eljuttatja a legfrissebb és exkluzív filmelőzeteseket HD-ban XBMC-be. Képességek:[CR]- Előzetesek megtekintése 480p/720p/1080p-ben[CR]- Előzetesek letöltése[CR]- Hozzáadás a Trakt.tv-hez[CR]- Hozzáadás a CouchPotato-hoz</description>
+        <description lang="it">Apple iTunes Movie Trailers mette le più nuove ed esclusive anteprime dei film in HD nel tuo CBMC.&#10;Caratteristiche:[CR]- Guarda i Trailer a  480p/720p/1080p[CR]- Scarica i Trailer[CR]- Aggiungi i Filma </description>
+        <description lang="ko">Apple iTunes Movie Trailers 는 HD 포맷의 수많은 최신 독점 영화 예고편을 XBMC로 가져옵니다. 기능:[CR]- 480p/720p/1080p 예고편 시청[CR]- 예고편 다운로드[CR]- Trakt.tv 에 영화 추가[CR]- CouchPotato 에 영화 추가</description>
+        <description lang="nl">Apple iTunes Movie Trailers voegt de nieuwste en meest exclusieve filmpreviews in HD toe aan jouw XBMC. Functies:[CR]- Bekijk trailers in 480p/720p/1080p[CR]- Download trailers[CR]- voeg films toe aan Trakt.tv[CR]- voeg films toe aan Couchpotato</description>
+        <description lang="pl">Apple iTunes Movie Trailers udostępnia najnowsze i najbardziej wyjątkowe zwiastuny filmów w jakości HD w twoim XBMC. Możliwości:[CR]- Oglądanie zwiastunów w 480p/720p/1080p[CR]- Pobieranie zwiastunów[CR]- Dodawanie filmów do CouchPotato</description>
+        <description lang="pt">O navegador de Trailers do Apple iTunes para XBMC dá-lhe acesso às mais recentes e exclusivas apresentações de filmes em HD. Funcionalidades:[CR]- Ver Trailers em 480p/720p/1080p[CR]- Transferir Trailers[CR]- Adicionar Filmes a Trakt.tv[CR]- Adicionar Filmes ao CouchPotato</description>
+        <description lang="pt_BR">Apple iTunes Movie Trailers entrega os previews mais novos e exclusivos em HD para o XBMC. Recursos:[CR]-Assista trailers em 480p/720p/1080p[CR]-Download Trailers[CR]-Adicione filmes ao CouchPotato</description>
+        <description lang="sv">Apple iTunes Movie Trailers ger dig dom senaste och exklusivaste filmförhandsgranskningarna i HD till ditt XBMC. Funktioner:[CR]- Se trailers i 480p/720p/1080p[CR]- Ladda ner trailers[CR]- Lägg till filmer i CouchPotato</description>
+        <description lang="tr">Apple iTunes Film Fragmanları en yeni ve seçkin film önizlemelerini HD kalitesinde XBMC'ye koyar. Özellikler:[CR]- Fragmanları 480p/720p/1080p kalitesinde İzle[CR]- Fragmanları İndir[CR]- Filmleri Trakt.tv'ye Ekle[CR]- Filmleri CouchPotato'ya Ekle</description>
+        <description lang="zh">苹果iTunes电影预告片可在XBMC中观看最新和独家的高清电影预览。功能：[CR]- 观看480p/720p/1080p格式预告片[CR]- 下载预告片[CR]- 电影加入到Trakt.tv[CR]- 电影加入到CouchPotato</description>
+        <disclaimer lang="be">NO iTunes required!</disclaimer>
+        <disclaimer lang="bg">НЕ изисква iTunes!</disclaimer>
+        <disclaimer lang="ca">No requereix d'iTunes!</disclaimer>
+        <disclaimer lang="da">iTunes er ikke nødvendig!</disclaimer>
+        <disclaimer lang="de">KEIN iTunes benötigt!</disclaimer>
+        <disclaimer lang="el">Δεν απαιτείται ΚΑΝΕΝΑ iTunes!</disclaimer>
+        <disclaimer lang="en">NO iTunes required!</disclaimer>
+        <disclaimer lang="es">iTunes no es necesario</disclaimer>
+        <disclaimer lang="fi">iTunesia EI vaadita!</disclaimer>
+        <disclaimer lang="fr">AUCUN iTunes obligatoires!</disclaimer>
+        <disclaimer lang="fr_CA">iTunes n'est PAS nécessaire!</disclaimer>
+        <disclaimer lang="gl">Non se require o iTunes!</disclaimer>
+        <disclaimer lang="he">לא נדרש iTunes!</disclaimer>
+        <disclaimer lang="hr">iTunes nije potreban!</disclaimer>
+        <disclaimer lang="hu">iTunes NEM szükséges!</disclaimer>
+        <disclaimer lang="it">iTunes non è necessario!</disclaimer>
+        <disclaimer lang="ko">iTunes 필요 없음!</disclaimer>
+        <disclaimer lang="lt">NO iTunes reikia!</disclaimer>
+        <disclaimer lang="nl">GEEN iTunes vereist!</disclaimer>
+        <disclaimer lang="pl">Nie wymaga iTunes!</disclaimer>
+        <disclaimer lang="pt">Não é necessário iTunes!</disclaimer>
+        <disclaimer lang="pt_BR">iTunes NÃO necessário!</disclaimer>
+        <disclaimer lang="sv">INGEN iTunes krävs!</disclaimer>
+        <disclaimer lang="tr">iTunes gerekli değil!</disclaimer>
+        <disclaimer lang="zh">不需要iTunes软件！</disclaimer>
+    </extension>
+</addon>
+
+<addon id="plugin.video.zdf_de_lite" name="ZDF Mediathek" version="2.1.3" provider-name="AddonScriptorDE">
+       <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="de">ZDF, ZDFneo, ZDFkultur, ZDFinfo und 3sat Mediathek</summary>
+        <summary lang="en">ZDF, ZDFneo, ZDFkultur, ZDFinfo and 3sat Media Library</summary>
+        <language>de</language>
+        <description lang="de">ZDF, ZDFneo, ZDFkultur, ZDFinfo und 3sat Mediathek</description>
+        <description lang="en">ZDF, ZDFneo, ZDFkultur, ZDFinfo and 3sat Media Library</description>
+        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>https://github.com/AddonScriptorDE/plugin.video.zdf_de_lite</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=132563</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+        <website>http://www.zdf.de/ZDFmediathek</website>
+    </extension>
+</addon>
+
+<addon id="repository.Crazy.plugins" name="Crazy Add-ons" version="0.0.1" provider-name="Crazy">
+	<extension point="xbmc.addon.repository" name="Crazy Add-ons">
+		<info compressed="false">http://github.com/CrazyAddOns/CrazyAddOns/raw/master/addons.xml</info>
+		<checksum>http://github.com/CrazyAddOns/CrazyAddOns/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://github.com/CrazyAddOns/CrazyAddOns/raw/master/Zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from CrazyAddOn Add-on Repository</summary>
+		<description>Plug-ins for XBMC</description>
+		<disclaimer>There are add-ons that allow viewing CrazyAddOn in XBMC</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
